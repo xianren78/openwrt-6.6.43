@@ -128,5 +128,5 @@ jobs:
         tag: ${{ env.latest_release }}
         commit: master
         replacesArtifacts: true
-        token: ${{ secrets.op_repo }}
+        token: ${{ secrets.OP_REPO }}
         artifacts: ${{ env.WORKDIR }}/rom/*
